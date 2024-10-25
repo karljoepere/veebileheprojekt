@@ -9,4 +9,4 @@ Selle lehe eesmärk on külastajale pakkuda kiiret ülevaadet viimase aja parima
 Tiimiliikmed on Kadri Paan, Liisi Koitjärv ja Karl Jõepere.
 
 ### Milline on tiimisisene tööjaotus?
-Meie rühmal on dünaamiline tööjaotus. See tähendab, et oma iganädalastel miitingutel teeme kokkuvõtte eelneva nädala ülesannetest ja nende sooritamisest ning paneme paika uued ülesanded tulevaks nädalaks. Arvestame ülesannete planeerimisel ka seda, et kõik vajalik saaks õigeaegselt tehtud, võimalusel ka varem. Ülesannete jaotamisel arvestame tiimiliikme oskuseid ning ülesande eeldatavat ajakulu, et iga liige saaks projekti panustada võrdselt.
+Meie rühmal on dünaamiline tööjaotus. See tähendab, et oma iganädalastel miitingutel teeme kokkuvõtte eelneva nädala ülesannetest ning paneme paika uued ülesanded tulevaks nädalaks. Arvestame ülesannete planeerimisel ka seda, et kõik vajalik saaks õigeaegselt tehtud, võimalusel isegi varem. Ülesannete jaotamisel arvestame tiimiliikme oskuseid ning ülesande eeldatavat ajakulu, et iga liige saaks projekti panustada võrdselt.
