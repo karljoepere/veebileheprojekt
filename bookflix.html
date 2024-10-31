@@ -3,26 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <title>BOOKFLIX</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>BOOKFLIX</h1>
     <p>Siin lehel saad tutvuda parimate filmide ja raamatutega, mis viimase viie aasta jooksul on ilmunud</p>
-    <br>
-    <button class="btn raamatud">Raamatud</button>
-    <button class="btn filmid">Filmid</button>
-    <br>
+    
+    <div class="nupud">
+        <button class="btn raamatud" onclick="window.location.href='raamatud.html'">Raamatud</button>
+        <button class="btn filmid" onclick="window.location.href='filmid.html'">Filmid</button>
+    </div>
+
     <div class="alaosa">
         <h2>Lisalingid</h2>
-        <p>Siin on veel linke, kus saad tutvuda sarnaste edetabelite ja kriitikalehekülgedega:</p>
-        <br>
+        <p>Siin on veel linke, kus saad tutvuda erinevate kriitikalehekülgedega:</p>  
+        
         <h3>Filmid:</h3>
-        <p><a href="https://www.rottentomatoes.com" target="_blank">RottenTomatoes</a></p>
-        <p><a href="https://www.imdb.com" target="_blank">IMDb</a></p>
-        <br>
+        <ul>
+            <li><a href="https://www.rottentomatoes.com" target="_blank">RottenTomatoes</a></p>
+            <li><a href="https://www.imdb.com" target="_blank">IMDb</a></p>
+            <li><a href="https://letterboxd.com/" target="_blank">Letterboxd</a></p>
+        </ul>
+        
         <h3>Raamatud:</h3>
-        <p><a href="https://www.goodreads.com/" target="_blank">GoodReads</a></p>
-    
-    
+        <ul>
+            <li><a href="https://www.goodreads.com/" target="_blank">GoodReads</a></p>
+            <li><a href="https://www.amazon.com/amazonbookreview/" target="_blank">Amazon Book Reviews</a></li>
+            <br>
+            <li><a href="https://app.thestorygraph.com/browse" target="_blank">The Storygraph</a></li>
+        </ul>
+
+    </div>
+
+    <div class="lõpuosa">
+        <p>“Books and movies are like apples and oranges. They both are fruit, but taste completely different.” - Stephen King</p>
+        <p>Veebiprojekt Bookflix</p>
+        <p>TÜ 2024</p>
     </div>
 
 </body>
