@@ -2,12 +2,11 @@ body {
     background: linear-gradient(to bottom right, #F7E6B9, #F4C2C2);;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     margin: 0;
 }
 
 h1 {
-    color: white;
+    color: #FF6F61  ;
     font-size: 5em;
     text-align: center;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
@@ -51,4 +50,62 @@ h1 {
 /* Hover efekt nuppudele */
 .button:hover img {
     transform: scale(1.1); /* Suurendab pilti, kui hiir on kohal */
+}
+
+
+
+
+
+.alaosa {
+    background-color: #f9e7b789; /* Õrn pastelne kollane taust */
+    padding: 20px;
+    border-top: 3px solid #FF6F61; /* Peenike ääris ülal */
+    text-align: center;
+}
+
+.alaosa p {
+    font-size: 1.1em;
+    color: #4A4A4A;
+    margin-bottom: 20px;
+}
+
+.alaosa h3 {
+    color: #5c5c5cdf;
+    font-size: 1.3em;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.alaosa ul {
+    list-style-type: none; /* Eemaldab täpploendi */
+    padding: 0;
+}
+
+.alaosa ul li {
+    margin-bottom: 8px;
+}
+
+.alaosa ul li a {
+    color: #FF6F61;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.alaosa ul li a:hover {
+    color: #f3775e; /* Hover efekt */
+}
+
+.lõpuosa {
+    background-color: #F4C2C2; /* Pastelne roosa taust */
+    padding: 20px;
+    text-align: center;
+    font-size: 0.9em;
+    color: #4A4A4A;
+    border-top: 2px solid #FF6F61; /* Ääris lõpuosa ülaosas */
+    font-style: italic;
+}
+
+.lõpuosa p {
+    margin: 5px 0;
 }
