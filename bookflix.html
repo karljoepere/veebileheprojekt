@@ -3,15 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <title>BOOKFLIX</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="pealeht.css">
 </head>
 <body>
     <h1>BOOKFLIX</h1>
-    <p>Siin lehel saad tutvuda parimate filmide ja raamatutega, mis viimase viie aasta jooksul on ilmunud</p>
+    <p class="kirjeldus">Siin lehel saad tutvuda parimate filmide ja raamatutega, mis viimase viie aasta jooksul on ilmunud.</p>
     
-    <div class="nupud">
-        <button class="btn raamatud" onclick="window.location.href='raamatud.html'">Raamatud</button>
-        <button class="btn filmid" onclick="window.location.href='filmid.html'">Filmid</button>
+    <div class="buttons">
+        <a href="raamatud.html" class="button" id="raamatud">
+            <img src="https://cdn-icons-png.flaticon.com/512/207/207114.png" alt="Raamat" />
+        </a>
+        <a href="filmid.html" class="button" id="filmid">
+            <img src="https://cdn-icons-png.flaticon.com/512/3820/3820565.png" alt="Film" />
+        </a>
     </div>
 
     <div class="alaosa">

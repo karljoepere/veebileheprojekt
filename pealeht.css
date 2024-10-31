@@ -1,0 +1,54 @@
+body {
+    background: linear-gradient(to bottom right, #F7E6B9, #F4C2C2);;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    color: white;
+    font-size: 5em;
+    text-align: center;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    font-family: 'Comic Sans MS', sans-serif;
+}
+
+.kirjeldus {
+    color: #ffffff;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.buttons {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button {
+    display: inline-block; /* Muudab nuppude kuvamist */
+    text-decoration: none; /* Eemaldab allajoonimise */
+    width: 200px; /* Nupu laius */
+    height: 200px; /* Nupu kõrgus */
+    border-radius: 15px; /* Nurgad ümardatud */
+    overflow: hidden; /* Peidab ülemise osa */
+    border: 2px solid transparent; /* Muudame äärise nähtamatuks */
+    transition: border-color 0.3s;
+    padding: 10px;
+}
+
+.button img {
+    width: 100%; /* Muudab pildi laius nupu järgi */
+    height: auto; /* Proportsioonide säilitamine */
+    transition: transform 0.3s; /* Animatsioon */
+    object-fit: contain;
+}
+
+/* Hover efekt nuppudele */
+.button:hover img {
+    transform: scale(1.1); /* Suurendab pilti, kui hiir on kohal */
+}
