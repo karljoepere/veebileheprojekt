@@ -4,11 +4,19 @@
     <meta charset="UTF-8">
     <title>BOOKFLIX</title>
     <link rel="stylesheet" href="pealeht.css">
+    <link rel="icon" href="logo.jpeg" type="image/jpeg">
 </head>
 <body>
-    <h1>BOOKFLIX</h1>
-    <p class="kirjeldus">Siin lehel saad tutvuda parimate raamatute ja filmidega, mis viimasel ajal on ilmunud.</p>
     
+    <h1>BOOKFLIX</h1>
+    
+    <div class="kirjeldus-container">
+        <p class="kirjeldus">Siin lehel saad tutvuda parimate raamatute ja filmidega, mis viimasel ajal on ilmunud.
+            <br>
+            Vajuta raamatu või popkorni ikoonile, et tutvuda meie loodud edetabelitega!
+        </p>
+    </div>
+
     <div class="buttons">
         <a href="raamatud.html" class="button" id="raamatud">
             <img src="https://cdn-icons-png.flaticon.com/512/207/207114.png" alt="Raamat" />
@@ -19,27 +27,80 @@
     </div>
 
     <div class="alaosa">
-        <p>Siin on veel linke, kus saad tutvuda erinevate kriitikalehekülgedega:</p>  
-        
-        <h3>Filmid:</h3>
-        <ul>
-            <li><a href="https://www.rottentomatoes.com" target="_blank">RottenTomatoes</a></p>
-            <li><a href="https://www.imdb.com" target="_blank">IMDb</a></p>
-            <li><a href="https://letterboxd.com/" target="_blank">Letterboxd</a></p>
-        </ul>
-        
-        <h3>Raamatud:</h3>
-        <ul>
-            <li><a href="https://www.goodreads.com/" target="_blank">GoodReads</a></p>
-            <li><a href="https://www.amazon.com/amazonbookreview/" target="_blank">Amazon Book Reviews</a></li>
-            <br>
-            <li><a href="https://app.thestorygraph.com/browse" target="_blank">The Storygraph</a></li>
-        </ul>
-
+        <div class="kriitika-leheküljed">
+            <h3>Kriitikaleheküljed</h3>
+    
+            <div class="lingid-konteiner">
+                <div class="filmid">
+                    <h4>FILMID:</h4>
+                    <br>
+                    <div class="link">
+                        <a href="https://www.rottentomatoes.com" target="_blank">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Rotten_Tomatoes_logo.svg/320px-Rotten_Tomatoes_logo.svg.png" alt="Rotten Tomatoes logo" class="link-pilt">
+                        </a>
+                        <p>RottenTomatoes</p>
+                        <br>
+                    </div>
+                    <div class="link">
+                        <a href="https://www.imdb.com" target="_blank">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/IMDB_Logo_2016.svg/575px-IMDB_Logo_2016.svg.png?20200406194337" alt="IMDb logo" class="link-pilt">
+                        </a>
+                        <p>IMDb</p>
+                        <br>
+                    </div>
+                    <div class="link">
+                        <a href="https://letterboxd.com/films/" target="_blank">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/9/9b/Letterboxd_2023_logo.png" alt="Letterboxd logo" class="link-pilt">
+                        </a>
+                        <p>Letterboxd</p>
+                    </div>
+                </div>
+    
+                <div class="raamatud">
+                    <h4>RAAMATUD:</h4>
+                    <br>
+                    <div class="link">
+                        <a href="https://www.goodreads.com/" target="_blank">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Goodreads_logo.svg/2560px-Goodreads_logo.svg.png" alt="Goodreads logo" class="link-pilt">
+                        </a>
+                        <p>GoodReads</p>
+                        <br>
+                    </div>
+                    <div class="link">
+                        <a href="https://www.amazon.com/amazonbookreview/" target="_blank">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" alt="Amazon logo" class="link-pilt">
+                        </a>
+                        <p>Amazon</p>
+                        <br>
+                    </div>
+                    <div class="link">
+                        <a href="https://app.thestorygraph.com/browse" target="_blank">
+                            <img src="https://upload.wikimedia.org/wikipedia/en/4/4a/Logo_for_The_StoryGraph.png" alt="Storygraph logo" class="link-pilt">
+                        </a>
+                        <p>The StoryGraph</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="kiired-soovitused">
+            <h3>Kiired soovitused</h3>
+            <div class="soovitus">
+                <p><strong>Film:</strong> “Soovitatava filmi nimi”</p>
+                <div class="filmi-lühikirjeldus">
+                    <p> lühikirjeldus</p>
+                </div>
+                <br>
+                <p><strong>Raamat:</strong> “Soovitatava raamatu nimi”</p>
+                <div class="raamatu-lühikirjeldus">
+                    <p>lühikirjeldus</p>
+                </div>
+            </div>
+        </div>
     </div>
-
+             
     <div class="lõpuosa">
-        <p>“Books and movies are like apples and oranges. They both are fruit, but taste completely different.” - Stephen King</p>
+        <p class="tsitaat">“Books and movies are like apples and oranges. They both are fruit, but taste completely different.” - Stephen King</p>
         <p>Veebiprojekt Bookflix</p>
         <p>TÜ 2024</p>
     </div>
