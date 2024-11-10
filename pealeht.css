@@ -7,7 +7,7 @@ body {
 
 h1 {
     color: #FF6F61;
-    font-size: 3.5em;
+    font-size: 5em;
     text-align: center;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
     font-family: 'Comic Sans MS', sans-serif;
@@ -155,18 +155,31 @@ h1 {
 }
 
 .kiired-soovitused p {
-    font-size: 1.1em;
+    font-size: 1.3em;
 }
 
-.filmi-lühikirjeldus, .raamatu-lühikirjeldus {
+.lühikirjeldus {
     font-size: 0.8em;
+}
+
+.soovitus-konteiner {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.pildi-kohad {
+    width: 125px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 .lõpuosa {
     background-color: #F4C2C2;
     padding: 20px;
     text-align: center;
-    font-size: 0.9em;
+    font-size: 1em;
     color: #4A4A4A;
     border-top: 2px solid #FF6F61;
 }
@@ -175,5 +188,4 @@ h1 {
     font-style: italic;
     font-size: 1em;
     color: #555;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
 }
