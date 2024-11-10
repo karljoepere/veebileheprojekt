@@ -6,57 +6,55 @@ body {
 }
 
 h1 {
-    color: #FF6F61  ;
-    font-size: 5em;
+    color: #FF6F61;
+    font-size: 3.5em;
     text-align: center;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
     font-family: 'Comic Sans MS', sans-serif;
+    margin: 0;
 }
 
 .kirjeldus-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5px;
+    padding: 2px;
 }
 
 .kirjeldus {
-    color: #ffffff;
+    color: #5c5c5cdf;
     font-size: 1.5em;
     text-align: center;
-    padding: 10px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 2px;
 }
 
 .buttons {
     display: flex;
     gap: 100px;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 .button {
-    display: inline-block; /* Muudab nuppude kuvamist */
-    text-decoration: none; /* Eemaldab allajoonimise */
-    width: 200px; /* Nupu laius */
-    height: 200px; /* Nupu kõrgus */
-    border-radius: 15px; /* Nurgad ümardatud */
-    overflow: hidden; /* Peidab ülemise osa */
-    border: 2px solid transparent; /* Muudame äärise nähtamatuks */
-    transition: border-color 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    overflow: hidden;
+    border: 2px solid transparent;
     padding: 10px;
 }
 
 .button img {
-    width: 100%; /* Muudab pildi laius nupu järgi */
-    height: auto; /* Proportsioonide säilitamine */
-    transition: transform 0.3s; /* Animatsioon */
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s;
     object-fit: contain;
 }
 
-/* Hover efekt nuppudele */
 .button:hover img {
-    transform: scale(1.1); /* Suurendab pilti, kui hiir on kohal */
+    transform: scale(1.1);
 }
 
 .alaosa {
@@ -68,7 +66,6 @@ h1 {
     gap: 20px;
 }
 
-/* Vasakpoolne kriitika lehekülgede konteiner */
 .kriitika-leheküljed {
     flex: 1;
     padding: 10px;
@@ -78,33 +75,30 @@ h1 {
     text-align: center;
 }
 
-/* Pealkiri "Kriitika leheküljed" */
 .kriitika-leheküljed h3 {
     color: #5c5c5cdf;
     font-size: 2em;
     margin-bottom: 10px;
 }
 
-/* Paigutus filmide ja raamatute jaotistele */
 .lingid-konteiner {
     display: flex;
     justify-content: space-around;
     gap: 20px;
 }
 
-/* Filmide ja raamatute sektsioonide kujundus */
 .filmid, .raamatud {
     flex: 1;
     text-align: center;
 }
 
 .filmid {
-    border-right: 3px solid #5c5c5cb4; /* Hall eraldusjoon */
-    padding-right: 20px; /* Ruumi lisamine paremale */
+    border-right: 3px solid #5c5c5cb4;
+    padding-right: 20px;
 }
 
 .raamatud {
-    padding-left: 20px; /* Ruumi lisamine vasakule */
+    padding-left: 20px;
 }
 
 .filmid h4, .raamatud h4 {
@@ -113,12 +107,10 @@ h1 {
     margin-bottom: 10px;
 }
 
-/* Lingid ja logode stiilid */
 .link {
     margin-bottom: 15px;
 }
 
-/* Logo lingi osa */
 .link a {
     display: inline-block;
 }
@@ -135,7 +127,6 @@ h1 {
     box-shadow: none;
 }
 
-/* Tekst logode all */
 .link p {
     font-size: 0.9em;
     margin-top: 5px;
@@ -143,7 +134,6 @@ h1 {
     cursor: default;
 }
 
-/* Parempoolne kiired-soovitused konteiner */
 .kiired-soovitused {
     flex: 1;
     padding: 10px;
@@ -173,12 +163,12 @@ h1 {
 }
 
 .lõpuosa {
-    background-color: #F4C2C2; /* Pastelne roosa taust */
+    background-color: #F4C2C2;
     padding: 20px;
     text-align: center;
     font-size: 0.9em;
     color: #4A4A4A;
-    border-top: 2px solid #FF6F61; /* Ääris lõpuosa ülaosas */
+    border-top: 2px solid #FF6F61;
 }
 
 .tsitaat {
