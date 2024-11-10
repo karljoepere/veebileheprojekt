@@ -1,0 +1,47 @@
+body {
+    background-color: #F4C2C2;;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+h1 {
+    color: #FF6F61  ;
+    font-size: 5em;
+    text-align: center;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    font-family: 'Comic Sans MS', sans-serif;
+}
+
+.esimene {
+    background-color: #f9e7b789; /* Õrn pastelne kollane taust */
+    padding: 20px;
+    border-top: 3px solid #FF6F61; /* Peenike ääris ülal */
+    text-align: left;
+}
+
+.esimene p {
+    font-size: 1.1em;
+    color: #4A4A4A;
+    margin-bottom: 20px;
+}
+
+.esimene h3 {
+    color: #5c5c5cdf;
+    font-size: 1.3em;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.teine {
+    background-color: #F4C2C2; /* Pastelne roosa taust */
+    padding: 20px;
+    text-align: left;
+    font-size: 1.1em;
+    color: #4A4A4A;
+    border-top: 3px solid #FF6F61; /* Ääris lõpuosa ülaosas */
+}
+
+.teine p {
+    margin-bottom: 20px;
+}
