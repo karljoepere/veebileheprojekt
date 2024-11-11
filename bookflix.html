@@ -6,8 +6,9 @@
     <link rel="stylesheet" href="pealeht.css">
     <link rel="icon" href="logo.jpeg" type="image/jpeg">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <script src="tsitaadid.js" defer></script>
 </head>
-<body>
+<body onload="writeRandomQuote()">
 
     <h1>BOOKFLIX</h1>
     
@@ -114,7 +115,7 @@
     </div>
     
     <div class="lõpuosa">
-        <p class="tsitaat">“Books and movies are like apples and oranges. They are both fruit, but taste completely different.” - Stephen King</p>
+        <p id="tsitaat" class="tsitaat"></p>
         <p>Veebiprojekt Bookflix</p>
         <p>TÜ 2024</p>
     </div>
