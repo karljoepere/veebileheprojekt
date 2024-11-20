@@ -1,5 +1,6 @@
 // Allikas: https://www.webhostingsecretrevealed.net/blog/web-design/15-cool-javascript-sample-snippets/#2-javascript-cookies
 // Kasutatud ka ChatGPT abi vormistamisel.
+// Iga kord lehte värskendades kuvab lehe allosas juhuslikku tsitaadi.
 
 function writeRandomQuote() {
     var quotes = [
