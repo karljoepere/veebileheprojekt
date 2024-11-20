@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Poppins:wght@700&display=swap');
+
+body {
+    background: linear-gradient(to bottom right, #F7E6B9, #F4C2C2);
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    color: #333;
+}
+
+h1 {
+    color: #FF6F61;
+    font-size: 5em;
+    text-align: center;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    font-family: 'Poppins', sans-serif;
+}
+
+.book-section {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px; /* Ruumi pildi ja teksti vahel */
+    margin-bottom: 20px; /* Tühi ruum enne piiri */
+    padding: 20px;
+    border-bottom: 2px solid #FF6F61; /* Alumine joon sektsioonide vahel */
+    transition: background-color 0.3s ease; /* Sujuv värvi muutus */
+}
+
+/* Vahelduvad taustavärvid */
+.book-section:nth-child(odd) {
+    background-color: #FBEAD1; /* Pastelne kollane */
+    color: #333; /* Teksti värv */
+}
+
+.book-section:nth-child(even) {
+    background-color: #F9E6E6; /* Pastelne roosa */
+    color: #333; /* Teksti värv */
+}
+
+/* Pildi stiil */
+.book-section img {
+    flex-shrink: 0;
+    width: 200px; /* Pildi laius */
+    height: auto; /* Säilita proportsioonid */
+}
+
+/* Teksti stiil */
+.book-details {
+    display: flex;
+    flex-direction: column; /* Pealkiri ja tekst vertikaalselt */
+    justify-content: flex-start;
+    max-width: 800px; /* Piirab teksti laiust */
+}
+
+.book-details h2 {
+    margin: 0; /* Eemaldab liigsed marginaalid pealkirjalt */
+    color: #333; /* Pealkirja värv */
+}
+
+.book-details p {
+    margin: 5px 0; /* Väike vahe lõikude vahel */
+    color: #555; /* Teksti värv */
+}
