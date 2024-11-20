@@ -49,9 +49,9 @@ h1 {
 }
 
 body.dark-mode .esimene {
-    background-color: #9d927189;
+    background-color:#6e5a2789;
     color: white;
-    border-top: 3px solid #a4453c;
+    border-top: 3px solid #4f211d;
 }
 
 .esimene {
@@ -70,7 +70,7 @@ body.dark-mode .esimene {
 body.dark-mode .teine {
     background-color: rgb(94, 51, 58);
     color: white;
-    border-top: 3px solid #a4453c;
+    border-top: 3px solid #4f211d;
 }
 .teine {
     background-color: #F4C2C2; /* Pastelne roosa taust */
