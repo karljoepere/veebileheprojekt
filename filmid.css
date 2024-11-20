@@ -1,8 +1,43 @@
+:root {
+    --background-color: #F4C2C2;  /* Light background */
+    --text-color: #333333;         /* Light text color */
+    --primary-color: #4CAF50;      /* Button or link color */
+    --secondary-color: #f4f4f4;    /* Slightly darker background */
+}
+
+/* Dark mode theme */
+body.dark-mode {
+    --background-color: rgb(94, 51, 58);  /* Dark background */
+    --text-color: #ffffff;         /* Light text color */
+    --primary-color: #FF5722;      /* Button or link color in dark mode */
+    --secondary-color: #333333;    /* Slightly lighter background */
+}
+
 body {
-    background-color: #F4C2C2;;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: 'Montserrat', sans-serif;
     justify-content: center;
     align-items: center;
     margin: 0;
+    transition: all 0.3s ease;
+}
+
+button {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+body.dark-mode h1 {
+    color: #f8a39c
 }
 
 h1 {
@@ -10,7 +45,13 @@ h1 {
     font-size: 5em;
     text-align: center;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-    font-family: 'Comic Sans MS', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+body.dark-mode .esimene {
+    background-color: #9d927189;
+    color: white;
+    border-top: 3px solid #a4453c;
 }
 
 .esimene {
@@ -18,21 +59,19 @@ h1 {
     padding: 20px;
     border-top: 3px solid #FF6F61; /* Peenike ääris ülal */
     text-align: left;
+    font-size: 1.1em;
+    color: #4A4A4A;
 }
 
 .esimene p {
-    font-size: 1.1em;
-    color: #4A4A4A;
     margin-bottom: 20px;
 }
 
-.esimene h3 {
-    color: #5c5c5cdf;
-    font-size: 1.3em;
-    margin-top: 15px;
-    margin-bottom: 10px;
+body.dark-mode .teine {
+    background-color: rgb(94, 51, 58);
+    color: white;
+    border-top: 3px solid #a4453c;
 }
-
 .teine {
     background-color: #F4C2C2; /* Pastelne roosa taust */
     padding: 20px;
@@ -46,6 +85,8 @@ h1 {
     margin-bottom: 20px;
 }
 
+
+/* Iframe'i stiil, et tagada paindlik paigutus */
 .video {
     width: 100%;
     height: 100%;
