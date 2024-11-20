@@ -1,26 +1,28 @@
-// Get the theme switcher button and body element
+// koodi allikas https://volodymyrzh.medium.com/implementing-dark-mode-with-css-and-javascript-fd3b2105e081
+// ChatGPT kasutasin vormistamiseks
+// Muudab lehe tumedale režiimilie
 const themeSwitcher = document.getElementById('themeSwitcher');
 const body = document.body;
 
-// Function to toggle dark mode
+// Tumeda režiimi funktsioon
 function toggleDarkMode() {
     body.classList.toggle('dark-mode');
     
-    // Check if dark mode is enabled, and save the user's preference
+    // Vaatab, kas tume režiim on rakendatud
     if (body.classList.contains('dark-mode')) {
-        localStorage.setItem('theme', 'dark'); // Save preference to localStorage
+        localStorage.setItem('theme', 'dark'); // salvestab eelistuse 
     } else {
-        localStorage.setItem('theme', 'light'); // Save preference to localStorage
+        localStorage.setItem('theme', 'light'); // salvestab eelistuse
     }
 }
 
-// Event listener for theme switcher button
+// kas nupule on vajutatud
 themeSwitcher.addEventListener('click', toggleDarkMode);
 
-// Check for stored theme preference on page load and apply it
+// vaatab, mis eelistus on salvestatud
 window.addEventListener('load', () => {
     const storedTheme = localStorage.getItem('theme');
     if (storedTheme === 'dark') {
-        body.classList.add('dark-mode');  // Apply dark mode if stored preference is 'dark'
+        body.classList.add('dark-mode');  // rakendab tumeda režiimi, kui see on eelistus
     }
 });
