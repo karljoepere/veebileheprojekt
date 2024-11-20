@@ -1,16 +1,16 @@
 :root {
-    --background-color: #F4C2C2;  /* Light background */
-    --text-color: #333333;         /* Light text color */
-    --primary-color: #4CAF50;      /* Button or link color */
-    --secondary-color: #f4f4f4;    /* Slightly darker background */
+    --background-color: #F4C2C2;  /* hele taust */
+    --text-color: #4A4A4A;         /* tume teksti värv */
+    --primary-color: #4CAF50;      /* nupu värv */
+    --secondary-color: #f4f4f4;    
 }
 
 /* Dark mode theme */
 body.dark-mode {
-    --background-color: rgb(94, 51, 58);  /* Dark background */
-    --text-color: #ffffff;         /* Light text color */
-    --primary-color: #FF5722;      /* Button or link color in dark mode */
-    --secondary-color: #333333;    /* Slightly lighter background */
+    --background-color: rgb(94, 51, 58);  /* tume taust */
+    --text-color: #ffffff;         /* hele teksti värv */
+    --primary-color: #FF5722;      /* nupu värv */
+    --secondary-color: #333333;    
 }
 
 body {
