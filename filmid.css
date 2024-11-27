@@ -52,7 +52,7 @@ body.dark-mode .esimene {
     color: white;
 }
 
-.esimene {
+.teine {
     background-color: #f9e7b789;
     padding: 20px;
     border-top: 3px solid #FF6F61; /* Peenike ääris ülal */
@@ -69,7 +69,7 @@ body.dark-mode .teine {
     background-color: #1e1e1e;
     color: white;
 }
-.teine {
+.esimene {
     background-color: #F4C2C2;
     padding: 20px;
     text-align: left;
