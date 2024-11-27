@@ -30,6 +30,10 @@ h1 {
     font-family: 'Poppins', sans-serif;
 }
 
+h3 {
+    text-align: center;
+}
+
 .book-section {
     display: flex;
     align-items: flex-start;
