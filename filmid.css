@@ -1,14 +1,13 @@
 :root {
     --background-color: #F4C2C2;  /* hele taust */
-    --text-color: #4A4A4A;         /* tume teksti värv */
+    --text-color: #555;         /* tume teksti värv */
     --primary-color: #4CAF50;      /* nupu värv */
-    --secondary-color: #f4f4f4;    
+    --secondary-color: #f4f4f4;
 }
 
-/* Dark mode theme */
 body.dark-mode {
-    --background-color: rgb(94, 51, 58);  /* tume taust */
-    --text-color: #ffffff;         /* hele teksti värv */
+    --background-color: #121212;  /* tume taust */
+    --text-color: #ffffff;         /* hele teksti color */
     --primary-color: #FF5722;      /* nupu värv */
     --secondary-color: #333333;    
 }
@@ -36,10 +35,6 @@ button:hover {
     background-color: #333;
 }
 
-body.dark-mode h1 {
-    color: #f8a39c
-}
-
 h1 {
     color: #FF6F61  ;
     font-size: 5em;
@@ -49,9 +44,8 @@ h1 {
 }
 
 body.dark-mode .esimene {
-    background-color:#6e5a2789;
+    background-color:#1e1e1e;
     color: white;
-    border-top: 3px solid #4f211d;
 }
 
 .esimene {
@@ -68,9 +62,8 @@ body.dark-mode .esimene {
 }
 
 body.dark-mode .teine {
-    background-color: rgb(94, 51, 58);
+    background-color: #1e1e1e;
     color: white;
-    border-top: 3px solid #4f211d;
 }
 .teine {
     background-color: #F4C2C2; /* Pastelne roosa taust */
