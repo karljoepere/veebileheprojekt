@@ -46,11 +46,11 @@ body.dark-mode .book-section:nth-child(odd) {
 }
 
 .book-section:nth-child(odd) {
-    background-color: #FBEAD1; 
+    background-color: #F4C2C2; 
 }
 
 .book-section:nth-child(even) {
-    background-color: #F9E6E6; 
+    background-color: #F9E7B789; 
 }
 
 body.dark-mode .book-section:nth-child(even) {
@@ -91,4 +91,3 @@ button:hover {
 .book-details p {
     margin: 5px 0; 
 }
-
