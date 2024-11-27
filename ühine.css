@@ -6,6 +6,15 @@ body {
     margin: 20px;
     align-items: center;
     transition: all 0.3s ease;
+    background: var(--background-color);
+    color: var(--text-color);
+}
+
+:root {
+    --background-color: linear-gradient(to bottom right, #F7E6B9, #F4C2C2);  
+    --text-color: #555;        
+    --primary-color: #4CAF50;      
+    --secondary-color: #f4f4f4;
 }
 
 h1 {
