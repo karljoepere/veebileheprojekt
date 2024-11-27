@@ -3,11 +3,11 @@ body {
     font-family: 'Montserrat', sans-serif;
     line-height: 1.2;
     justify-content: center;
-    margin: 20px;
     align-items: center;
     transition: all 0.3s ease;
     background: var(--background-color);
     color: var(--text-color);
+    margin: 0;
 }
 
 :root {
@@ -27,9 +27,34 @@ h1 {
     margin: 0;
 }
 
+h3 {
+    text-align: center;
+}
+
 body.dark-mode {
     --background-color: #121212;  
     --text-color: #ffffff;         
     --primary-color: #FF5722;      
     --secondary-color: #333333;    
+}
+
+button {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #333;
+    transition: background-color 0.3s ease;
+}
+
+.lõpuosa {
+    padding: 20px;
+    text-align: center;
+    font-size: 1em;
+    color: #4A4A4A;
 }

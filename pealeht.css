@@ -47,6 +47,7 @@
     background-color: #f9e7b789;
     padding: 15px;
     border-top: 3px solid #FF6F61;
+    border-bottom: 3px solid #FF6F61;
     gap: 20px;
 }
 
@@ -157,15 +158,6 @@
     height: auto;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-}
-
-.lõpuosa {
-    background-color: #F4C2C2;
-    padding: 20px;
-    text-align: center;
-    font-size: 1em;
-    color: #4A4A4A;
-    border-top: 2px solid #FF6F61;
 }
 
 .tsitaat {
