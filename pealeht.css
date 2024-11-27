@@ -1,9 +1,3 @@
-body {
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-}
-
 .kirjeldus-container {
     display: flex;
     justify-content: center;
@@ -12,7 +6,7 @@ body {
 }
 
 .kirjeldus {
-    color: #5c5c5cdf;
+    color: #555;
     font-size: 1.25em;
     text-align: center;
     padding: 2px;
@@ -176,6 +170,7 @@ body {
 
 .tsitaat {
     font-style: italic;
-    font-size: 1em;
+    font-size: 1.2em;
+    font-weight: 1.5;
     color: #555;
 }

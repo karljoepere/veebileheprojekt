@@ -9,25 +9,11 @@
 
 body {
     background: var(--background-color);
-    font-family: 'Montserrat', sans-serif;
-    line-height: 1.6;
-    margin: 20px;
     color: var(--text-color);
 }
 
-body.dark-mode {
-    --background-color: #121212;  
-    --text-color: #ffffff;         
-    --primary-color: #FF5722;      
-    --secondary-color: #333333;    
-}
-
 h1 {
-    color: #FF6F61;
     font-size: 5em;
-    text-align: center;
-    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-    font-family: 'Poppins', sans-serif;
 }
 
 h3 {

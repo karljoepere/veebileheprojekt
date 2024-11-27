@@ -1,6 +1,11 @@
 body {
     background: linear-gradient(to bottom right, #F7E6B9, #F4C2C2);
     font-family: 'Montserrat', sans-serif;
+    line-height: 1.2;
+    justify-content: center;
+    margin: 20px;
+    align-items: center;
+    transition: all 0.3s ease;
 }
 
 h1 {
@@ -11,4 +16,11 @@ h1 {
     font-family: 'Poppins', sans-serif;
     letter-spacing: 1px;
     margin: 0;
+}
+
+body.dark-mode {
+    --background-color: #121212;  
+    --text-color: #ffffff;         
+    --primary-color: #FF5722;      
+    --secondary-color: #333333;    
 }
