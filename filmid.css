@@ -1,0 +1,103 @@
+:root {
+    --background-color: #F4C2C2;  /* hele taust */
+    --text-color: #4A4A4A;         /* tume teksti värv */
+    --primary-color: #4CAF50;      /* nupu värv */
+    --secondary-color: #f4f4f4;    
+}
+
+/* Dark mode theme */
+body.dark-mode {
+    --background-color: rgb(94, 51, 58);  /* tume taust */
+    --text-color: #ffffff;         /* hele teksti värv */
+    --primary-color: #FF5722;      /* nupu värv */
+    --secondary-color: #333333;    
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: 'Montserrat', sans-serif;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    transition: all 0.3s ease;
+}
+
+button {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+body.dark-mode h1 {
+    color: #f8a39c
+}
+
+h1 {
+    color: #FF6F61  ;
+    font-size: 5em;
+    text-align: center;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    font-family: 'Poppins', sans-serif;
+}
+
+body.dark-mode .esimene {
+    background-color:#6e5a2789;
+    color: white;
+    border-top: 3px solid #4f211d;
+}
+
+.esimene {
+    background-color: #f9e7b789; /* Õrn pastelne kollane taust */
+    padding: 20px;
+    border-top: 3px solid #FF6F61; /* Peenike ääris ülal */
+    text-align: left;
+    font-size: 1.1em;
+    color: #4A4A4A;
+}
+
+.esimene p {
+    margin-bottom: 20px;
+}
+
+body.dark-mode .teine {
+    background-color: rgb(94, 51, 58);
+    color: white;
+    border-top: 3px solid #4f211d;
+}
+.teine {
+    background-color: #F4C2C2; /* Pastelne roosa taust */
+    padding: 20px;
+    text-align: left;
+    font-size: 1.1em;
+    color: #4A4A4A;
+    border-top: 3px solid #FF6F61; /* Ääris lõpuosa ülaosas */
+}
+
+.teine p {
+    margin-bottom: 20px;
+}
+
+
+/* Iframe'i stiil, et tagada paindlik paigutus */
+.video {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 16 / 9; /* Tagab õige suhte */
+    border: none;
+    border-radius: 8px;
+}
+
+/* Pildi stiilimine */
+.image {
+    height: 575px;
+    width: 450px;
+    border-radius: 8px;
+}

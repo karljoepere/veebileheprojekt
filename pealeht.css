@@ -1,0 +1,181 @@
+body {
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.kirjeldus-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+}
+
+.kirjeldus {
+    color: #5c5c5cdf;
+    font-size: 1.25em;
+    text-align: center;
+    padding: 2px;
+}
+
+.buttons {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.button {
+    display: inline-block;
+    text-decoration: none;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    overflow: hidden;
+    border: 2px solid transparent;
+    padding: 10px;
+}
+
+.button img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+    object-fit: contain;
+}
+
+.button:hover img {
+    transform: scale(1.1);
+}
+
+.alaosa {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f9e7b789;
+    padding: 15px;
+    border-top: 3px solid #FF6F61;
+    gap: 20px;
+}
+
+.kriitika-leheküljed {
+    flex: 1;
+    padding: 10px;
+    background-color: #f9e7b7a2;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.kriitika-leheküljed h3 {
+    color: #5c5c5cdf;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.lingid-konteiner {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.filmid, .raamatud {
+    flex: 1;
+    text-align: center;
+}
+
+.filmid {
+    border-right: 3px solid #5c5c5cb4;
+    padding-right: 20px;
+}
+
+.raamatud {
+    padding-left: 20px;
+}
+
+.filmid h4, .raamatud h4 {
+    color: #5c5c5cdf;
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+
+.link {
+    margin-bottom: 15px;
+}
+
+.link a {
+    display: inline-block;
+}
+
+.link-pilt {
+    width: 100px;
+    height: auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 5px;
+}
+
+.link-pilt:hover {
+    transform: scale(1.1);
+    box-shadow: none;
+}
+
+.link p {
+    font-size: 0.9em;
+    margin-top: 5px;
+    color: #5c5c5cdf;
+    cursor: default;
+}
+
+.kiired-soovitused {
+    flex: 1;
+    padding: 10px;
+    background-color: #f9e7b7a2;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.kiired-soovitused h3 {
+    color: #5c5c5cdf;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.kiired-soovitused .soovitus {
+    margin-top: 10px;
+    text-align: left;
+}
+
+.kiired-soovitused p {
+    font-size: 1.3em;
+}
+
+.lühikirjeldus {
+    font-size: 0.8em;
+}
+
+.soovitus-konteiner {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.pildi-kohad {
+    width: 125px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.lõpuosa {
+    background-color: #F4C2C2;
+    padding: 20px;
+    text-align: center;
+    font-size: 1em;
+    color: #4A4A4A;
+    border-top: 2px solid #FF6F61;
+}
+
+.tsitaat {
+    font-style: italic;
+    font-size: 1em;
+    color: #555;
+}
