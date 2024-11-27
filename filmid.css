@@ -1,13 +1,13 @@
 :root {
-    --background-color: #F4C2C2;  /* hele taust */
-    --text-color: #555;         /* tume teksti värv */
+    --background-color: #F4C2C2;
+    --text-color: #555;
     --primary-color: #4CAF50;      /* nupu värv */
     --secondary-color: #f4f4f4;
 }
 
 body.dark-mode {
-    --background-color: #121212;  /* tume taust */
-    --text-color: #ffffff;         /* hele teksti color */
+    --background-color: #121212;
+    --text-color: #ffffff;
     --primary-color: #FF5722;      /* nupu värv */
     --secondary-color: #333333;    
 }
@@ -53,7 +53,7 @@ body.dark-mode .esimene {
 }
 
 .esimene {
-    background-color: #f9e7b789; /* Õrn pastelne kollane taust */
+    background-color: #f9e7b789;
     padding: 20px;
     border-top: 3px solid #FF6F61; /* Peenike ääris ülal */
     text-align: left;
@@ -70,7 +70,7 @@ body.dark-mode .teine {
     color: white;
 }
 .teine {
-    background-color: #F4C2C2; /* Pastelne roosa taust */
+    background-color: #F4C2C2;
     padding: 20px;
     text-align: left;
     font-size: 1.1em;
