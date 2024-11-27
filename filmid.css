@@ -1,7 +1,7 @@
 :root {
-    --background-color: #F4C2C2;
-    --text-color: #555;
-    --primary-color: #4CAF50;      /* nupu värv */
+    --background-color: linear-gradient(to bottom right, #F7E6B9, #F4C2C2);  
+    --text-color: #555;        
+    --primary-color: #4CAF50;      
     --secondary-color: #f4f4f4;
 }
 
@@ -13,7 +13,7 @@ body.dark-mode {
 }
 
 body {
-    background-color: var(--background-color);
+    background: var(--background-color);
     color: var(--text-color);
     font-family: 'Montserrat', sans-serif;
     justify-content: center;
