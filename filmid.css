@@ -6,21 +6,25 @@ h1 {
     font-size: 5em;
 }
 
+h2 {font-size: 2.3em;
+
+}
+
 body.dark-mode .esimene {
     background-color:#1e1e1e;
     color: white;
 }
 
-.teine {
-    background-color: #f9e7b789;
+.esimene {
+    background-color: #F4C2C2;
     padding: 20px;
     text-align: left;
-    font-size: 1.1em;
+    font-size: 1em;
     color: #4A4A4A;
-    border-top: 2px solid #FF6F61;
+    border-top: 3px solid #FF6F61;
     border-bottom: 2px solid #FF6F61;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
 .esimene p {
@@ -31,16 +35,17 @@ body.dark-mode .teine {
     background-color: #1e1e1e;
     color: white;
 }
-.esimene {
-    background-color: #F4C2C2;
+
+.teine {
+    background-color: #f9e7b789;
     padding: 20px;
     text-align: left;
-    font-size: 1.1em;
+    font-size: 1em;
     color: #4A4A4A;
-    border-top: 3px solid #FF6F61;
+    border-top: 2px solid #FF6F61;
     border-bottom: 2px solid #FF6F61;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
+    border-radius: 8px;
 }
 
 .teine p {
