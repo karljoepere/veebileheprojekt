@@ -43,6 +43,10 @@ h1 {
     font-family: 'Poppins', sans-serif;
 }
 
+h3 {
+    text-align: center;
+}
+
 body.dark-mode .esimene {
     background-color:#1e1e1e;
     color: white;
